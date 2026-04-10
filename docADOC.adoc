@@ -1,0 +1,51 @@
+= Dokumentacja Projektu
+Autor: Jan Kowalski
+:toc:
+:icons: font
+
+== Wprowadzenie
+
+To jest przykładowa dokumentacja napisana w formacie AsciiDoc.
+
+== Wymagania
+
+* Java 17+
+* Maven
+* Docker
+
+== Instalacja
+
+. Sklonuj repozytorium:
++
+[source,bash]
+----
+git clone https://github.com/example/projekt.git
+----
+
+. Uruchom aplikację:
++
+[source,bash]
+----
+mvn spring-boot:run
+----
+
+== API
+
+=== Endpoint: /users
+
+[cols="1,2"]
+|===
+|Metoda |Opis
+
+|GET
+|Pobiera listę użytkowników
+
+|POST
+|Tworzy nowego użytkownika
+|===
+
+== Uwagi
+
+NOTE: To jest przykładowa notatka.
+
+WARNING: To jest ostrzeżenie.
